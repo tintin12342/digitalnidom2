@@ -1,135 +1,25 @@
 <?php
   include ("header.php")
 ?>
-  <body class="theme--dark">
-    <!-- PRELOADER SPINNER
-		============================================= -->
-    <div id="loading" class="loading--theme">
-      <div id="loading-center">
-        <span class="loader"><span class="loader-inner"></span></span>
-      </div>
-    </div>
+      <!-- HERO-1
+			============================================= -->	
+			<section id="hero-1" class="bg--fixed hero-section division">
+				<div class="container">	
+					<div class="row d-flex align-items-center">
 
-    <!-- PAGE CONTENT
-		============================================= -->
-    <div id="page" class="page">
-      <!-- HEADER
-			============================================= -->
-      <header id="header" class="tra-menu navbar-dark white-scroll">
-        <div class="header-wrapper">
-          <!-- MOBILE HEADER -->
-          <div class="wsmobileheader clearfix">
-            <span class="smllogo">
-              <a href="pocetna"
-                ><img src="images/digitalni-dom-logo-light.png" alt="mobile-logo"
-              /></a>
-            </span>
-            <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
-          </div>
 
-          <!-- NAVIGATION MENU -->
-          <div class="wsmainfull menu clearfix">
-            <div
-              class="container d-flex justify-content-between align-items-center"
-            >
-              <!-- HEADER BLACK LOGO -->
-              <div class="desktoplogo logo-black">
-                <a href="pocetna" class="logo-black"
-                  ><img src="images/logo-light.png" alt="logo"
-                /></a>
-              </div>
+						<!-- HERO TEXT -->
+						<div class="col-md-6">
+							<div class="hero-1-txt wow animate__animated animate__fadeInRight">
 
-              <!-- HEADER WHITE LOGO -->
-              <div class="desktoplogo logo-white">
-                <a href="pocetna" class="logo-white"
-                  ><img src="images/logo-light.png" alt="logo"
-                /></a>
-              </div>
+								<!-- Title -->
+								<h2>Osvojite tržište<br>digitalnim marketingom</h2>
 
-              <!-- MAIN MENU -->
-              <nav class="wsmenu clearfix">
-                <ul class="wsmenu-list nav-theme">
-                  <!-- SIMPLE NAVIGATION LINK -->
-                  <li class="nl-simple" aria-haspopup="true">
-                    <a href="pocetna" class="h-link">Početna</a>
-                  </li>
+								<!-- Text -->
+								<p class="p-lg">Iskoristite potencijal digitalnog marketinga kako biste transforimirali Vaše poslovanje
+								</p>
 
-                  <!-- DROPDOWN SUB MENU -->
-                  <li aria-haspopup="true">
-                    <a href="#" class="h-link"
-                      >Naše usluge <span class="wsarrow"></span
-                    ></a>
-                    <ul class="sub-menu ico-10">
-                      <li aria-haspopup="true" class="h-link">
-                        <a href="features.html">Google oglašavanje</a>
-                      </li>
-                      <li aria-haspopup="true" class="h-link">
-                        <a href="features.html">Izrada web stranica</a>
-                      </li>
-                      <li aria-haspopup="true" class="h-link">
-                        <a href="features.html">SEO optimizacija</a>
-                      </li>
-                      <li aria-haspopup="true" class="h-link">
-                        <a href="features.html"
-                          >Oglašavanje na društvenim mrežama</a
-                        >
-                      </li>
-                    </ul>
-                  </li>
-
-                  <!-- SIMPLE NAVIGATION LINK -->
-                  <li class="nl-simple" aria-haspopup="true">
-                    <a href="o-nama" class="h-link">O nama</a>
-                  </li>
-
-                  <!-- SIMPLE NAVIGATION LINK -->
-                  <li class="nl-simple" aria-haspopup="true">
-                    <a href="kontakt" class="h-link">Kontakt</a>
-                  </li>
-
-                  <!-- GET STARTED BUTTON -->
-                  <li class="nl-simple" aria-haspopup="true">
-                    <a
-                      href="kontakt"
-                      class="btn r-06 btn--theme hover--tra-coal last-link"
-                      >Zatražite ponudu</a
-                    >
-                  </li>
-                </ul>
-              </nav>
-              <!-- END MAIN MENU -->
-            </div>
-          </div>
-          <!-- END NAVIGATION MENU -->
-        </div>
-        <!-- End header-wrapper -->
-      </header>
-      <!-- END HEADER -->
-
-      <!-- HERO-4
-			============================================= -->
-      <section id="hero-4" class="bg--fixed hero-section">
-        <div class="container">
-          <div class="row d-flex align-items-center">
-            <!-- HERO TEXT -->
-            <div class="col-md-6">
-              <div
-                class="hero-4-txt wow animate__animated animate__fadeInRight"
-              >
-                <!-- Section ID -->
-                <span class="section-id">Optimizirajte Vaše rezultate</span>
-
-                <!-- Title -->
-                <h1>
-                  Osvojite tržište<br>digitalnim marketingom
-                </h1>
-
-                <!-- Text -->
-                <p class="p-lg">
-                  Iskoristite potencijal digitalnog marketinga kako biste transforimirali Vaše poslovanje
-                </p>
-
-                <!-- Buttons -->
+								<!-- Buttons -->
                 <div class="btns-group">
                   <a href="kontakt" class="btn r-06 btn--theme hover--coal">Započnimo odmah</a>
                 </div>
@@ -142,26 +32,22 @@
                   </li>
                   <li><p class="p-sm">Stručna podrška</p></li>
                 </ul>
-              </div>
-            </div>
-            <!-- END HERO TEXT -->
 
-            <!-- HERO IMAGE -->
-            <div class="col-md-6">
-              <div class="hero-4-img wow animate__animated animate__fadeInLeft">
-                <img
-                  class="img-fluid"
-                  src="images/dashboard-03.png"
-                  alt="hero-image"
-                />
-              </div>
-            </div>
-          </div>
-          <!-- End row -->
-        </div>
-        <!-- End container -->
-      </section>
-      <!-- END HERO-4 -->
+							</div>
+						</div>	<!-- END HERO TEXT -->	
+
+
+						<!-- HERO IMAGE -->
+						<div class="col-md-6">	
+							<div class="hero-1-img wow animate__animated animate__fadeInLeft">	
+								<img class="img-fluid" src="images/hero-1-img.png" alt="hero-image">					
+							</div>
+						</div>	
+						
+
+					</div>    <!-- End row --> 	
+				</div>	   <!-- End container --> 	
+			</section>	<!-- END HERO-1 -->	
 
       <!-- DIVIDER LINE -->
       <hr class="divider" />
@@ -912,135 +798,6 @@
       </section>
       <!-- END FEATURES-4 -->
 
-      <!-- IMAGE CONTENT
-			============================================= -->
-      <section class="pt-100 ct-05 ct-05-img content-section division px-0">
-        <div class="container-fluid hidd px-0">
-          <!-- SECTION TITLE -->
-          <div class="row justify-content-center">
-            <div class="col-md-10 col-lg-9">
-              <div class="section-title mb-60">
-                <!-- Title -->
-                <h2 class="h2-xl">Moć Google oglašavanja</h2>
-
-                <!-- Text -->
-                <p class="p-xl">
-                  Povećajte opseg posla uz Google oglase
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <!-- IMAGE BLOCK -->
-          <div class="row">
-            <div class="col position-relative px-0">
-              <div
-                class="img-block video-preview wow animate__animated animate__fadeInUp"
-              >
-                <!-- Play Icon -->
-                <a
-                  class="video-popup1"
-                  href="https://www.youtube.com/embed/JdIm7p_JUHA"
-                >
-                  <div class="video-btn video-btn-xl video-btn-orange">
-                    <div class="video-block-wrapper">
-                      <span class="flaticon-play-button"></span>
-                    </div>
-                  </div>
-                </a>
-
-                <!-- Preview Image -->
-                <video
-                  class="img-fluid google-ads-video"
-                  src="images/Google-ads-bckg.mp4"
-                  alt="content-image"
-                  autoplay="true"
-                  muted="true"
-                  loop="true"
-                >
-                  <source src="images/Google-ads-bckg.mp4" type="video/mp4" />
-                </video>
-              </div>
-              <div class="text-over-video d-none d-md-block">
-                <h2>Saznajte kako Vam <br>Google oglasi mogu pomoći</h2>
-                <h5 class="mt-5 pt-5 d-none d-lg-block">
-                  Pogledajte kratki video i <br>saznajte kako Google oglašavanje<br />
-                  možete iskoristiti kako biste <br>ostvarili Vaše poslovne ciljeve
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- End container -->
-      </section>
-      <!-- END IMAGE CONTENT -->
-
-      <!-- STATISTIC-6
-			============================================= -->
-      <div id="statistic-6" class="pt-100 statistic-section division">
-        <div class="container">
-          <!-- STATISTIC-6 BLOCKS -->
-          <div class="row row-cols-1 row-cols-md-3 text-center">
-            <!-- STATISTIC BLOCK #1 -->
-            <div class="col">
-              <div id="sb-6-1" class="animate__animated animate__fadeInUp">
-                <div class="statistic-block">
-                  <h2 class="statistic-number">
-                    <span class="count-element">90</span><small>%</small>
-                  </h2>
-
-                  <div class="statistic-block-txt">
-                    <p>
-                      Korisnika interneta koristi Google kao glavni pretraživač, što ga čini ključnim kanalom za oglašavanje.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- END STATISTIC BLOCK #1 -->
-
-            <!-- STATISTIC BLOCK #2 -->
-            <div class="col">
-              <div id="sb-6-2" class="animate__animated animate__fadeInUp">
-                <div class="statistic-block">
-                  <h2 class="statistic-number">
-                    <span class="count-element">75</span><small>%</small>
-                  </h2>
-
-                  <div class="statistic-block-txt">
-                    <p>
-                      Korisnika mobitela pretražuje lokalne usluge putem Google pretraživača, što Google oglase čini izuzetno učinkovitim alatom za lokalno oglašavanje.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- END STATISTIC BLOCK #2 -->
-
-            <!-- STATISTIC BLOCK #3 -->
-            <div class="col">
-              <div id="sb-6-3" class="animate__animated animate__fadeInUp">
-                <div class="statistic-block">
-                  <h2 class="statistic-number">
-                    <span class="count-element">42</span><small>%</small>
-                  </h2>
-
-                  <div class="statistic-block-txt">
-                    <p>
-                      Je prosječni porast koji oglašivači zabilježe u prepoznavanju branda kada koriste Google oglase kao dio svoje strategije.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- END STATISTIC BLOCK #3 -->
-          </div>
-          <!-- END STATISTIC-6 BLOCKS -->
-        </div>
-        <!-- End container -->
-      </div>
-      <!-- END STATISTIC-6 -->
-
       <!-- BOX CONTENT
 			============================================= -->
       <section class="pt-100 bc-01 ws-wrapper content-section">
@@ -1591,19 +1348,19 @@
                     </div>
 
                     <!-- Title -->
-                    <h5 class="h5-lg">Marketing Integrations</h5>
+                    <h5 class="h5-lg">Integracija alata</h5>
 
                     <!-- Text -->
                     <ul class="simple-list">
                       <li class="list-item">
                         <p>
-                          Usklađivanje alata kao što su CRM sustavi i analitičke platforme ključno je za stvaranje uspješne marketinške strategije.
+                          Usklađivanje alata kao što su CRM sustavi i analitičke platforme ključno je za stvaranje uspješne strategije.
                         </p>
                       </li>
 
                       <li class="list-item">
                         <p class="mb-0">
-                          Integracija omogućava bolje razumijevanje potreba kupaca i prilagodbu marketinških aktivnosti prema njihovim preferencijama.
+                          Integracija omogućava bolje razumijevanje potreba kupaca i prilagodbu prema njihovim preferencama.
                         </p>
                       </li>
                     </ul>
@@ -1807,8 +1564,6 @@
                     <a
                       href="kontakt"
                       class="btn btn-sm r-06 btn--theme hover--theme"
-                      data-bs-toggle="modal"
-                      data-bs-target="#modal-2"
                       >Kontaktirajte nas
                     </a>
                   </div>

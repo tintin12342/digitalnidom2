@@ -1191,8 +1191,17 @@ p.btns-group-txt span.txt-data a:hover {
 
 .text-over-video {
   position: absolute;
-  top: 50px;
-  left: 70px;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0.25) 0%,
+    rgba(0, 0, 0, 0) 30%
+  );
+  padding: 50px;
+  height: calc(100% - 7px);
+  border-radius: 0 25%;
 }
 
 .text-over-video h2,

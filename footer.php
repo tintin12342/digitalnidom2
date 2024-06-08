@@ -1,6 +1,6 @@
       <!-- FOOTER-1
 			============================================= -->
-            <footer id="footer-1" class="pt-100 footer ft-2-rows division">
+      <footer id="footer-1" class="pt-100 footer ft-2-rows division">
         <div class="container">
           <!-- FOOTER CONTENT -->
           <div class="row footer-links clearfix">
@@ -34,16 +34,16 @@
                 <!-- Links -->
                 <ul class="foo-links clearfix">
                   <li>
-                    <p><a href="pocetna">Google oglašavanje</a></p>
+                    <p><a href="google-oglasavanje">Google oglašavanje</a></p>
                   </li>
                   <li>
-                    <p><a href="pocetna">Izrada web stranica</a></p>
+                    <p><a href="izrada-web-stranica">Izrada web stranica</a></p>
                   </li>
                   <li>
-                    <p><a href="pocetna">SEO optimizacija</a></p>
+                    <p><a href="seo-optimizacija">SEO optimizacija</a></p>
                   </li>
                   <li>
-                    <p><a href="pocetna">Oglašavanje na društvenim mrežama</a></p>
+                    <p><a href="oglasavanje-na-drustvenim-mrezama">Oglašavanje na društvenim mrežama</a></p>
                   </li>
                 </ul>
               </div>

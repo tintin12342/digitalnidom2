@@ -76,7 +76,7 @@
     <link href="css/animate.css" rel="stylesheet" />
 
     <!-- TEMPLATE CSS -->
-    <link href="css/digitalni-dom-theme.css" rel="stylesheet" />
+    <link href="css/default.css" rel="stylesheet" />
     <!-- <link href="css/blue-theme.css" rel="stylesheet"> -->
     <!-- <link href="css/darkblue-theme.css" rel="stylesheet" /> -->
     <!-- <link href="css/indigo-theme.css" rel="stylesheet"> -->
@@ -88,3 +88,108 @@
     <!-- RESPONSIVE CSS -->
     <link href="css/responsive.css" rel="stylesheet" />
   </head>
+
+  <body class="theme--dark">
+    <!-- PRELOADER SPINNER
+		============================================= -->
+    <div id="loading" class="loading--theme">
+      <div id="loading-center">
+        <span class="loader"><span class="loader-inner"></span></span>
+      </div>
+    </div>
+
+    <!-- PAGE CONTENT
+		============================================= -->
+    <div id="page" class="page">
+      <!-- HEADER
+			============================================= -->
+      <header id="header" class="tra-menu navbar-dark white-scroll">
+        <div class="header-wrapper">
+          <!-- MOBILE HEADER -->
+          <div class="wsmobileheader clearfix">
+            <span class="smllogo">
+              <a href="pocetna"
+                ><img src="images/digitalni-dom-logo-light.png" alt="mobile-logo"
+              /></a>
+            </span>
+            <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+          </div>
+
+          <!-- NAVIGATION MENU -->
+          <div class="wsmainfull menu clearfix">
+            <div
+              class="container d-flex justify-content-between align-items-center"
+            >
+              <!-- HEADER BLACK LOGO -->
+              <div class="desktoplogo logo-black">
+                <a href="pocetna" class="logo-black"
+                  ><img src="images/logo-light.png" alt="logo"
+                /></a>
+              </div>
+
+              <!-- HEADER WHITE LOGO -->
+              <div class="desktoplogo logo-white">
+                <a href="pocetna" class="logo-white"
+                  ><img src="images/logo-light.png" alt="logo"
+                /></a>
+              </div>
+
+              <!-- MAIN MENU -->
+              <nav class="wsmenu clearfix">
+                <ul class="wsmenu-list nav-theme">
+                  <!-- SIMPLE NAVIGATION LINK -->
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="pocetna" class="h-link">Početna</a>
+                  </li>
+
+                  <!-- DROPDOWN SUB MENU -->
+                  <li aria-haspopup="true">
+                    <a href="#" class="h-link"
+                      >Naše usluge <span class="wsarrow"></span
+                    ></a>
+                    <ul class="sub-menu ico-10">
+                      <li aria-haspopup="true" class="h-link">
+                        <a href="google-oglasavanje">Google oglašavanje</a>
+                      </li>
+                      <li aria-haspopup="true" class="h-link">
+                        <a href="izrada-web-stranica">Izrada web stranica</a>
+                      </li>
+                      <li aria-haspopup="true" class="h-link">
+                        <a href="seo-optimizacija">SEO optimizacija</a>
+                      </li>
+                      <li aria-haspopup="true" class="h-link">
+                        <a href="oglasavanje-na-drustvenim-mrezama"
+                          >Oglašavanje na društvenim mrežama</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+
+                  <!-- SIMPLE NAVIGATION LINK -->
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="o-nama" class="h-link">O nama</a>
+                  </li>
+
+                  <!-- SIMPLE NAVIGATION LINK -->
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a href="kontakt" class="h-link">Kontakt</a>
+                  </li>
+
+                  <!-- GET STARTED BUTTON -->
+                  <li class="nl-simple" aria-haspopup="true">
+                    <a
+                      href="kontakt"
+                      class="btn r-06 btn--theme hover--tra-coal last-link"
+                      >Zatražite ponudu</a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- END MAIN MENU -->
+            </div>
+          </div>
+          <!-- END NAVIGATION MENU -->
+        </div>
+        <!-- End header-wrapper -->
+      </header>
+      <!-- END HEADER -->
