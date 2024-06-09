@@ -34,10 +34,10 @@
               <!-- Socials Links -->
               <ul class="contacts-info-socials ico-25">
                 <li>
-                  <a href="#"><span class="flaticon-facebook"></span></a>
+                  <a href="https://www.facebook.com/p/Digitalni-Dom-61556550296157" target="_blank"><span class="flaticon-facebook"></span></a>
                 </li>
                 <li>
-                  <a href="#"><span class="flaticon-instagram"></span></a>
+                  <a href="https://www.instagram.com/digitalnidom" target="_blank"><span class="flaticon-instagram"></span></a>
                 </li>
               </ul>
             </div>
