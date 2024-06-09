@@ -48,7 +48,7 @@
 							<!-- HERO IMAGE -->
 							<div class="col-md-6">	
 								<div class="hero-6-img text-center wow animate__animated animate__fadeInLeft">
-									<img class="img-fluid" src="images/img-05d.png" alt="hero-image">					
+									<img class="img-fluid" src="images/img-05d.png" alt="primjeri oglasa na društvenim mrežama">					
 								</div>
 							</div>	
 							
@@ -75,7 +75,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-01.png"
-                  alt="content-image"
+                  alt="dvije žene provjeravaju uspješnost nakon izrade oglasa na društvenim mrežama"
                 />
               </div>
             </div>
@@ -345,7 +345,7 @@
                     <img
                       class="img-fluid"
                       src="images/progress.png"
-                      alt="content-image"
+                      alt="analiza uspješnosti nakon izrade oglasa na društvenim mrežama"
                     />
                   </div>
                 </div>
@@ -378,8 +378,8 @@
               >
                 <img
                   class="img-fluid"
-                  src="images/img-03.png"
-                  alt="content-image"
+                  src="images/img-03.png" 
+                  alt="zadovoljna klijentica okružena uspjehom kampanji digitalnog marketinga"
                 />
               </div>
             </div>

@@ -35,7 +35,7 @@
 					<div class="row">
 						<div class="col">
 							<div class="hero-26-img wow animate__animated animate__fadeInUp">
-								<img class="img-fluid" src="images/hero-26-img.png" alt="hero-image">	
+								<img class="img-fluid" src="images/hero-26-img.png" alt="prikaz uspješnosti poslovanja nakon seo optimizacije">	
 							</div>
 						</div>	
 					</div>
@@ -61,7 +61,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-01.png"
-                  alt="content-image"
+                  alt="dvije žene provjeravaju uspješnost nakon seo optimizacije"
                 />
               </div>
             </div>
@@ -331,7 +331,7 @@
                     <img
                       class="img-fluid"
                       src="images/progress.png"
-                      alt="content-image"
+                      alt="analiza uspješnosti nakon seo optimizacije"
                     />
                   </div>
                 </div>
@@ -365,7 +365,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-03.png"
-                  alt="content-image"
+                  alt="zadovoljna klijentica okružena uspjehom kampanji digitalnog marketinga"
                 />
               </div>
             </div>

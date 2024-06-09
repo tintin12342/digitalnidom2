@@ -6,21 +6,166 @@
 <!--[if (gte IE 9)|!(IE)]><!-->
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="author" content="DSAThemes" />
-    <meta
-      name="description"
-      content="SolTech - Premium Marketing Landing Pages Pack"
-    />
-    <meta
-      name="keywords"
-      content="HTML5, DSAThemes, Creative, Agency, Digital Business, IT Solutions, Digital Product, Marketinge, SaaS, Startup"
-    />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digitalni Marketing | SEO Optimizacija | Izrada Web Stranica</title>
+    <meta name="description" content="Pružamo usluge digitalnog marketinga, uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama.">
+    <meta name="keywords" content="digitalni marketing, google oglasi, SEO optimizacija, izrada web stranica, online oglašavanje, društvene mreže, google oglašavanje, facebook oglašavanje, instagram oglašavanje">
+    <meta name="author" content="Digitalni dom">
+    <link rel="canonical" href="https://www.digitalnidom.com/">
+    <meta property="og:title" content="Digitalni Marketing | SEO Optimizacija | Izrada Web Stranica">
+    <meta property="og:description" content="Pružamo usluge digitalnog marketinga, uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama.">
+    <meta property="og:url" content="https://digitalnidom.com/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://digitalnidom.com/assets/logo.svg">
+    <meta property="og:locale" content="hr_HR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Digitalni Marketing | SEO Optimizacija | Izrada Web Stranica">
+    <meta name="twitter:description" content="Pružamo usluge digitalnog marketinga, uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama.">
+    <meta name="twitter:image" content="https://digitalnidom.com/assets/logo.svg">
 
-    <!-- SITE TITLE -->
-    <title>Digitalni Dom - Poslovni rast bez dodatno uloženog vremena</title>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Digitalni dom",
+      "url": "https://www.digitalnidom.com/",
+      "logo": "https://digitalnidom.com/assets/logo.svg",
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+385-97-6446095",
+        "contactType": "Customer Service",
+        "areaServed": "HR",
+        "availableLanguage": "hr"
+      },
+      "sameAs": [
+        "https://www.facebook.com/p/Digitalni-Dom-61556550296157",
+        "https://www.instagram.com/digitalnidom"
+      ],
+      "description": "Pružamo usluge digitalnog marketinga, uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "ULICA KRALJA KREŠIMIRA IV 36",
+        "addressLocality": "Samobor",
+        "postalCode": "10430",
+        "addressCountry": "HR"
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5",
+        "reviewCount": "2"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Marko Petrović"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Naša suradnja s Digitalnim Domom potpuno je transformirala našu online prisutnost, rezultirajući značajnim povećanjem prometa i prodaje."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ivana Horvat"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Digitalni Dom pristupio je našem projektu s individualiziranom strategijom koja je odgovarala našim specifičnim potrebama, rezultirajući povećanjem prodaje."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Mario Stanić"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Zahvaljujući stručnosti Digitalnog Doma, uspjeli smo postići vidljivost našeg brenda na globalnoj razini, dosežući nove kupce i povećavajući prihode."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Marta Novak"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Digitalni Dom pružio nam je iznimnu podršku tijekom cijelog procesa, nudeći nam savjete i smjernice koji su nam pomogli da postignemo željene rezultate."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ivan Horvat"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Zahvaljujući Digitalnom Domu, naša kampanja postigla je izvanredne rezultate, vidljivo povećavajući našu prisutnost na tržištu i generirajući značajne prihode."
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Petra Novak"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "ProfeSuradnja s Digitalnim Domom bila je iznimno profesionalna i efikasna, pružajući nam potrebnu podršku i vođenje za uspješno vođenje marketinških kampanja"
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Luka Marinović"
+          },
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          },
+          "reviewBody": "Digitalni Dom pokazao se kao pouzdan partner za naš digitalni rast, pružajući nam stručnost i resurse potrebne za uspješno vođenje online strategija."
+        },
+      ],
+      "service": [
+        {
+          "@type": "Service",
+          "serviceType": "Digitalni marketing",
+          "description": "Sveobuhvatna usluga digitalnog marketinga uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama."
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Izrada web stranica",
+          "description": "Profesionalna izrada web stranica koja osigurava visoku funkcionalnost i atraktivan dizajn."
+        },
+        {
+          "@type": "Service",
+          "serviceType": "SEO optimizacija",
+          "description": "Optimizacija web stranica za bolje pozicioniranje na tražilicama i povećanje organskog prometa."
+        },
+        {
+          "@type": "Service",
+          "serviceType": "Oglašavanje na društvenim mrežama",
+          "description": "Kreiranje i upravljanje oglasima na Facebooku i Instagramu za dosezanje ciljanih publika."
+        }
+      ]
+    }
+    </script>
+
 
     <!-- FAVICON AND TOUCH ICONS -->
     <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />

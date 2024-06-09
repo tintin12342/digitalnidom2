@@ -38,7 +38,7 @@
         <div class="row">
           <div class="col">
             <div class="about-1-img">
-              <img class="img-fluid" src="images/about.png" alt="about-image" />
+              <img class="img-fluid" src="images/about.png" alt="prikaz zadovoljnih korisnika digitalnog marketinga" />
             </div>
           </div>
         </div>
@@ -112,7 +112,7 @@
               <img
                 class="img-fluid"
                 src="images/img-04d.png"
-                alt="content-image"
+                alt="ljudi sa osmjehom i prikazi njihovih ostvarenih ciljeva digitalnog marketinga"
               />
             </div>
           </div>
@@ -207,7 +207,7 @@
                   <img
                     class="img-fluid"
                     src="images/img-01.png"
-                    alt="content-image"
+                    alt="dvije žene provjeravaju posjećenost nakon izrade web stranice"
                   />
                 </div>
               </div>
@@ -412,23 +412,11 @@
             <div
               class="img-block video-preview wow animate__animated animate__fadeInRight"
             >
-              <!-- Play Icon -->
-              <a
-                class="video-popup1"
-                href="https://www.youtube.com/embed/SZEflIVnhH8"
-              >
-                <div class="video-btn video-btn-xl bg--pink">
-                  <div class="video-block-wrapper">
-                    <span class="flaticon-play-button"></span>
-                  </div>
-                </div>
-              </a>
-
               <!-- Image -->
               <img
                 class="img-fluid r-12"
                 src="images/ct-07-1.jpg"
-                alt="content-image"
+                alt="zadovoljna klijentica digitalnog marketinga"
               />
             </div>
           </div>
@@ -444,7 +432,7 @@
                     <img
                       class="img-fluid r-12"
                       src="images/ct-07-2.jpg"
-                      alt="content-image"
+                      alt="klijentica sjedi na sastanku"
                     />
                   </div>
 
@@ -453,7 +441,7 @@
                     <img
                       class="img-fluid r-12"
                       src="images/ct-07-3.jpg"
-                      alt="content-image"
+                      alt="ljudi analiziraju uspješnost google oglasa"
                     />
                   </div>
                 </div>
@@ -566,9 +554,7 @@
 
                     <!-- Text -->
                     <p>
-                      U Digitalnom domu neprestano težimo inovacijama, pružajući
-                      najnovija i najnaprednija rješenja u digitalnom
-                      marketingu.
+                      U Digitalnom domu neprestano težimo inovacijama, pružajući najnaprednija rješenja.
                     </p>
                   </div>
 
@@ -602,9 +588,7 @@
 
                     <!-- Text -->
                     <p>
-                      Digitalni dom je pouzdan partner za digitalni uspjeh. Naš
-                      tim ima bogato znanje i iskustvo, omogućujući nam da
-                      pružimo učinkovite strategije.
+                      Digitalni dom je pouzdan partner za digitalni uspjeh koji Vam donosi učinkovite strategije.
                     </p>
                   </div>
                 </div>
@@ -705,7 +689,7 @@
               <img
                 class="img-fluid"
                 src="images/img-02.png"
-                alt="content-image"
+                alt="klijent analizira povećanje posjete na web stranici"
               />
             </div>
           </div>
@@ -840,7 +824,7 @@
                   <img
                     class="img-fluid"
                     src="images/progress-left.png"
-                    alt="content-image"
+                    alt="analiza uspješnosti kampanje digitalnog marketinga"
                   />
                 </div>
               </div>
@@ -868,7 +852,7 @@
               <img
                 class="img-fluid"
                 src="images/img-05d.png"
-                alt="content-image"
+                alt="primjeri oglasa na društvenim mrežama"
               />
             </div>
           </div>
@@ -1028,7 +1012,7 @@
 
                 <!-- Author -->
                 <div class="review-author">
-                  <h6>Marko Petrović</h6>
+                  <h6>Mario Stanić</h6>
                   <p class="p-sm">Direktor marketinga IT firme</p>
                 </div>
               </div>
@@ -1152,7 +1136,7 @@
 
                 <!-- Author -->
                 <div class="review-author">
-                  <h6>Luka Horvat</h6>
+                  <h6>Luka Marinović</h6>
                   <p class="p-sm">Direktor marketinga e-trgovine</p>
                 </div>
               </div>

@@ -48,7 +48,7 @@
                 <img
                   class="img-fluid"
                   src="images/dashboard-03.png"
-                  alt="hero-image"
+                  alt="analiza uspješnosti kampanje google oglasa"
                 />
               </div>
             </div>
@@ -75,7 +75,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-01.png"
-                  alt="content-image"
+                  alt="dvije žene provjeravaju uspješnost google oglašavanja"
                 />
               </div>
             </div>
@@ -357,7 +357,7 @@
                     <img
                       class="img-fluid"
                       src="images/progress.png"
-                      alt="content-image"
+                      alt="prikaz analitike uspješnosti digitalnog marketinga"
                     />
                   </div>
                 </div>
@@ -391,7 +391,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-03.png"
-                  alt="content-image"
+                  alt="zadovoljna klijentica okružena uspjehom kampanji digitalnog marketinga"
                 />
               </div>
             </div>
@@ -519,7 +519,7 @@
                     <img
                       class="img-fluid"
                       src="images/img-05d.png"
-                      alt="content-image"
+                      alt="primjeri oglasa na društvenim mrežama"
                     />
                   </div>
                 </div>

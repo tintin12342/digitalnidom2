@@ -40,7 +40,7 @@
 						<!-- HERO IMAGE -->
 						<div class="col-md-6">	
 							<div class="hero-1-img wow animate__animated animate__fadeInLeft">	
-								<img class="img-fluid" src="images/hero-1-img.png" alt="hero-image">					
+								<img class="img-fluid" src="images/hero-1-img.png" alt="Čovjek na slici okružen prikazima uspješnosti kampanji digitalnog marketinga">					
 							</div>
 						</div>	
 						
@@ -65,7 +65,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-01.png"
-                  alt="content-image"
+                  alt="dvije žene provjeravaju posjećenost nakon izrade web stranice"
                 />
               </div>
             </div>
@@ -347,7 +347,7 @@
                     <img
                       class="img-fluid"
                       src="images/progress.png"
-                      alt="content-image"
+                      alt="prikaz analitike uspješnosti digitalnog marketinga"
                     />
                   </div>
                 </div>
@@ -394,7 +394,7 @@
                     <img
                       class="img-fluid"
                       src="images/f_05d.png"
-                      alt="feature-image"
+                      alt="slika povečala i analize google oglasa prilikom pretraživanja"
                     />
                   </div>
 
@@ -419,7 +419,7 @@
                     <img
                       class="img-fluid"
                       src="images/f_02d.png"
-                      alt="feature-image"
+                      alt="prikaz ikonica alata za integraciju digitalnog marketinga sa poslovanjima"
                     />
                   </div>
 
@@ -444,7 +444,7 @@
                     <img
                       class="img-fluid"
                       src="images/f_01d.png"
-                      alt="feature-image"
+                      alt="prikaz prilagodlivosti prikaza na mobilnom i desktop prikazu"
                     />
                   </div>
 
@@ -480,7 +480,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-04d.png"
-                  alt="content-image"
+                  alt="ljudi sa osmjehom i prikazi ostvarenih ciljeva digitalnog marketinga"
                 />
               </div>
             </div>
@@ -595,7 +595,7 @@
                 <img
                   class="img-fluid"
                   src="images/tablet-01.png"
-                  alt="content-image"
+                  alt="Analitika uspješnosti kampanje google oglasa"
                 />
               </div>
             </div>
@@ -837,7 +837,7 @@
                     <img
                       class="img-fluid"
                       src="images/img-05d.png"
-                      alt="content-image"
+                      alt="primjeri oglasa na društvenim mrežama"
                     />
                   </div>
                 </div>
@@ -889,7 +889,7 @@
                         <img
                           class="img-fluid"
                           src="images/png_icons/mailchimp.png"
-                          alt="tool-logo"
+                          alt="mailchimp-logo"
                         />
                       </div>
                     </div>
@@ -916,14 +916,14 @@
                         <img
                           class="img-fluid"
                           src="images/png_icons/google_analytics.png"
-                          alt="tool-logo"
+                          alt="google-analytics-logo"
                         />
                       </div>
                     </div>
 
                     <!-- Text -->
                     <div class="tool_txt">
-                      <h6 class="h6-lg">Google Analytic</h6>
+                      <h6 class="h6-lg">Google Analytics</h6>
                       <p>Google alat za analitiku</p>
                     </div>
                   </div>
@@ -943,7 +943,7 @@
                         <img
                           class="img-fluid"
                           src="images/png_icons/trello.png"
-                          alt="tool-logo"
+                          alt="trello-logo"
                         />
                       </div>
                     </div>
@@ -993,7 +993,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-03.png"
-                  alt="content-image"
+                  alt="zadovoljna klijentica okružena uspjehom kampanji digitalnog marketinga"
                 />
               </div>
             </div>
@@ -1145,7 +1145,7 @@
                         <div class="review-avatar">
                           <img
                             src="images/review-author-1.jpg"
-                            alt="review-avatar"
+                            alt="ikonica klijenta"
                           />
                         </div>
 
@@ -1192,7 +1192,7 @@
                         <div class="review-avatar">
                           <img
                             src="images/review-author-2.jpg"
-                            alt="review-avatar"
+                            alt="ikonica klijenta"
                           />
                         </div>
 
@@ -1233,7 +1233,7 @@
                 <img
                   class="img-fluid"
                   src="images/img-06.png"
-                  alt="content-image"
+                  alt="process izrada kampanje za digitalni marketing"
                 />
               </div>
             </div>
@@ -1253,16 +1253,13 @@
                 <ul class="simple-list">
                   <li class="list-item">
                     <p>
-                      Tempor sapien quaerat ipsum laoreet purus and sapien dolor
-                      diam ultrice ipsum aliquam congue and dolor cursus dolor
-                      cursus purus congue an ipsum purus sapien blandit
+                      Kvalitetan sadržaj je srce svake uspješne strategije na društvenim mrežama, jer privlači, angažira i zadržava vašu ciljanu publiku.
                     </p>
                   </li>
 
                   <li class="list-item">
                     <p class="mb-0">
-                      Tempor sapien quaerat ipsum laoreet purus and sapien dolor
-                      diam ultrice ipsum aliquam congue and dolor cursus
+                      Pravilno osmišljeni postovi, vizuali i videozapisi pomažu u izgradnji prepoznatljivosti brenda i poticanju interakcija, što je ključno za dugoročni uspjeh u digitalnom marketingu.
                     </p>
                   </li>
                 </ul>
@@ -1371,7 +1368,7 @@
                     <img
                       class="img-fluid"
                       src="images/integrations.png"
-                      alt="feature-image"
+                      alt="alati za integraciju sa poslovanjem"
                     />
                   </div>
                 </div>
@@ -1415,7 +1412,7 @@
                     <img
                       class="img-fluid"
                       src="images/analytics.png"
-                      alt="feature-image"
+                      alt="analiza zarade i posjećenosti web stranice"
                     />
                   </div>
                 </div>
