@@ -9,6 +9,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digitalni Marketing | SEO Optimizacija | Izrada Web Stranica</title>
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-N8WS8JLL');</script>
+    <!-- End Google Tag Manager -->
     <meta name="description" content="Pružamo usluge digitalnog marketinga, uključujući Google oglase, SEO optimizaciju, izradu web stranica i oglašavanje na društvenim mrežama.">
     <meta name="keywords" content="digitalni marketing, google oglasi, SEO optimizacija, izrada web stranica, online oglašavanje, društvene mreže, google oglašavanje, facebook oglašavanje, instagram oglašavanje">
     <meta name="author" content="Digitalni dom">
@@ -235,6 +242,11 @@
   </head>
 
   <body class="theme--dark">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-N8WS8JLL"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+     
     <!-- PRELOADER SPINNER
 		============================================= -->
     <div id="loading" class="loading--theme">

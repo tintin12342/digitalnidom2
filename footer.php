@@ -97,10 +97,10 @@
               <div class="col">
                 <ul class="bottom-footer-socials ico-20 text-end">
                   <li>
-                    <a href="#"><span class="flaticon-facebook"></span></a>
+                    <a href="https://www.facebook.com/p/Digitalni-Dom-61556550296157"><span class="flaticon-facebook"></span></a>
                   </li>
                   <li>
-                    <a href="#"><span class="flaticon-instagram"></span></a>
+                    <a href="https://www.instagram.com/digitalnidom"><span class="flaticon-instagram"></span></a>
                   </li>
                 </ul>
               </div>

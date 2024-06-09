@@ -15,7 +15,7 @@
 
               <!-- TEXT BLOCK -->
               <div class="txt-block legal-info">
-                SCRIPT GOES HERE
+                <script id="CookieDeclaration" src="https://consent.cookiebot.com/da7ba54e-7136-49f9-bc15-1be1cc28dd9e/cd.js" type="text/javascript" async></script>
               </div>
               <!-- END TEXT BLOCK -->
             </div>
