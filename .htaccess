@@ -1,6 +1,3 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    # Redirect non .php URLs to their .php counterparts
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteRule ^([^\.]+)$ $1.php [L]
-</IfModule>
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [L]
