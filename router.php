@@ -14,6 +14,6 @@ if (substr($requestUri, -4) === '.php') {
 }
 
 // Redirect to the clean URL
-header("Location: https://digitalnidom2.up.railway.app/pocetna.php", true, 301);
+header("Location: https://digitalnidom2.up.railway.app/pocetna.php", false, 301);
 exit();
 ?>
