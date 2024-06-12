@@ -1,17 +1,13 @@
 <?php
-function console_log($data) {
-    echo "<script>console.log(" . json_encode($data) . ");</script>";
-}
-
 $requestUri = $_SERVER['REQUEST_URI'];
 
 // Remove query string from the request URI
 $requestUri = explode('?', $requestUri, 2)[0];
 
 // Remove leading slash and the prefix
-$requestUri = preg_replace('~^/Digitalni-dom/~', '', $requestUri);
+//$requestUri = preg_replace('~^/Digitalni-dom/~', '', $requestUri);
 
-console_log($requestUri);
+include('pocetna.php');
 
 // If the request is for the root directory, load the default index.php
 if ($requestUri == '') {
@@ -20,8 +16,6 @@ if ($requestUri == '') {
     // Replace slashes with underscores and append .php extension
     $requestUri = str_replace('/', '_', $requestUri) . '.php';
 }
-
-include('pocetna.php');
 
 /* // Check if the file exists
 if (file_exists($requestUri)) {
