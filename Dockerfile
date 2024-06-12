@@ -1,20 +1,14 @@
-# Use the official PHP Apache base image
-FROM php:apache
+# Use an official Nginx image
+FROM nginx:latest
 
-# Enable Apache mod_rewrite
-RUN a2enmod rewrite
+# Copy the custom Nginx configuration file
+COPY default.conf /etc/nginx/conf.d/
 
-# Copy the current directory contents into the container at /var/www/html
+# Copy the PHP application files
 COPY . /var/www/html
 
-# Set working directory
-WORKDIR /var/www/html
+# Use an official PHP-FPM image for PHP processing
+FROM php:7.4-fpm
 
-# Grant the web server permission to read the .htaccess file
-RUN chown -R www-data:www-data /var/www/html
-
-# Ensure permissions for .htaccess
-RUN chmod 644 /var/www/html/.htaccess
-
-# Expose port 80
-EXPOSE 80
+# Copy the PHP application files to the PHP container
+COPY . /var/www/html
