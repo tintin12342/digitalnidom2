@@ -5,6 +5,8 @@ function console_log($data) {
 
 $requestUri = $_SERVER['REQUEST_URI'];
 
+console_log($requestUri);
+
 // Remove query string from the request URI
 $requestUri = explode('?', $requestUri, 2)[0];
 
