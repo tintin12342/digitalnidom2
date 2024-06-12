@@ -1,7 +1,7 @@
 <?php
 
 $requestUri = $_SERVER["REQUEST_URI"];
-include("pocetna.php");
+header("Location: https://digitalnidom2.up.railway.app/pocetna.php");
 
 // Check if the file exists
 /* if (file_exists($requestUri)) {
