@@ -9,7 +9,7 @@ $requestUri = explode('?', $requestUri, 2)[0];
 // Remove leading slash and the prefix
 //$requestUri = preg_replace('~^/Digitalni-dom/~', '', $requestUri);
 
-include('/app/pocetna.php');
+include('app/pocetna.php');
 
 // If the request is for the root directory, load the default index.php
 if ($requestUri == '') {
