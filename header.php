@@ -265,7 +265,7 @@
           <!-- MOBILE HEADER -->
           <div class="wsmobileheader clearfix">
             <span class="smllogo">
-              <a href="pocetna"
+              <a href="pocetna.php"
                 ><img src="images/digitalni-dom-logo-light.png" alt="mobile-logo"
               /></a>
             </span>
@@ -279,14 +279,14 @@
             >
               <!-- HEADER BLACK LOGO -->
               <div class="desktoplogo logo-black">
-                <a href="pocetna" class="logo-black"
+                <a href="pocetna.php" class="logo-black"
                   ><img src="images/logo-light.png" alt="logo"
                 /></a>
               </div>
 
               <!-- HEADER WHITE LOGO -->
               <div class="desktoplogo logo-white">
-                <a href="pocetna" class="logo-white"
+                <a href="pocetna.php" class="logo-white"
                   ><img src="images/logo-light.png" alt="logo"
                 /></a>
               </div>
@@ -296,7 +296,7 @@
                 <ul class="wsmenu-list nav-theme">
                   <!-- SIMPLE NAVIGATION LINK -->
                   <li class="nl-simple" aria-haspopup="true">
-                    <a href="pocetna" class="h-link">Početna</a>
+                    <a href="pocetna.php" class="h-link">Početna</a>
                   </li>
 
                   <!-- DROPDOWN SUB MENU -->
@@ -306,16 +306,16 @@
                     ></a>
                     <ul class="sub-menu ico-10">
                       <li aria-haspopup="true" class="h-link">
-                        <a href="google-oglasavanje">Google oglašavanje</a>
+                        <a href="google-oglasavanje.php">Google oglašavanje</a>
                       </li>
                       <li aria-haspopup="true" class="h-link">
-                        <a href="izrada-web-stranica">Izrada web stranica</a>
+                        <a href="izrada-web-stranica.php">Izrada web stranica</a>
                       </li>
                       <li aria-haspopup="true" class="h-link">
-                        <a href="seo-optimizacija">SEO optimizacija</a>
+                        <a href="seo-optimizacija.php">SEO optimizacija</a>
                       </li>
                       <li aria-haspopup="true" class="h-link">
-                        <a href="oglasavanje-na-drustvenim-mrezama"
+                        <a href="oglasavanje-na-drustvenim-mrezama.php"
                           >Oglašavanje na društvenim mrežama</a
                         >
                       </li>
@@ -324,18 +324,18 @@
 
                   <!-- SIMPLE NAVIGATION LINK -->
                   <li class="nl-simple" aria-haspopup="true">
-                    <a href="o-nama" class="h-link">O nama</a>
+                    <a href="o-nama.php" class="h-link">O nama</a>
                   </li>
 
                   <!-- SIMPLE NAVIGATION LINK -->
                   <li class="nl-simple" aria-haspopup="true">
-                    <a href="kontakt" class="h-link">Kontakt</a>
+                    <a href="kontakt.php" class="h-link">Kontakt</a>
                   </li>
 
                   <!-- GET STARTED BUTTON -->
                   <li class="nl-simple" aria-haspopup="true">
                     <a
-                      href="kontakt"
+                      href="kontakt.php"
                       class="btn r-06 btn--theme hover--tra-coal last-link"
                       >Zatražite ponudu</a
                     >
