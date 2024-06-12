@@ -19,6 +19,8 @@ if ($requestUri == '') {
     $requestUri = str_replace('/', '_', $requestUri) . '.php';
 }
 
+console_log($requestUri);
+
 // Check if the file exists
 if (file_exists($requestUri)) {
     include($requestUri);
