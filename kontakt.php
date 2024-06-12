@@ -133,7 +133,7 @@
         <div class="row row-cols-1 row-cols-md-3">
           <!-- CONTACT BOX #1 -->
           <div class="contact-box ico-15">
-            <a href="pocetna">
+            <a href="pocetna.php">
               <!-- Title -->
               <h5>Što sve radimo<span class="flaticon-next"></span></h5>
 
@@ -148,7 +148,7 @@
 
           <!-- PRICING LINK -->
           <div class="contact-box ico-15">
-            <a href="o-nama">
+            <a href="o-nama.php">
               <!-- Title -->
               <h5>O nama<span class="flaticon-next"></span></h5>
 
