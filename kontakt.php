@@ -1,4 +1,7 @@
-<?php include('router.php'); ?>
+<?php if (!defined('ROUTER_INCLUDED')) {
+    define('ROUTER_INCLUDED', true);
+    include('router.php');
+} ?>
 <?php
   include ("header.php")
 ?>

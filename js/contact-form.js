@@ -13,7 +13,6 @@ $(document).ready(function() {
         var email = $(".email");
         var subject = $(".subject");
         var msg = $(".message");
-        console.log('begi bre')
         var flag = false;
         if (name.val() == "") {
             name.closest(".form-control").addClass("error");
