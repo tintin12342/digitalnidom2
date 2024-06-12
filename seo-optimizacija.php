@@ -1,3 +1,4 @@
+<?php include('router.php'); ?>
 <?php
   include ("header.php")
 ?>
