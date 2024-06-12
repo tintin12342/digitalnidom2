@@ -3,13 +3,13 @@
 $requestUri = $_SERVER["REQUEST_URI"];
 
 // Check if the file exists
-if (file_exists($requestUri)) {
+/* if (file_exists($requestUri)) {
     include($requestUri);
 } else {
     // If the file doesn"t exist, return a 404 response
     http_response_code(404);
     include("pocetna.php");
-}
+} */
 
 
 /* // Remove query string from the request URI
