@@ -1,9 +1,6 @@
-<?php if (!defined('ROUTER_INCLUDED')) {
-    define('ROUTER_INCLUDED', true);
-    include('router.php');
-} ?>
 <?php
-  include ("header.php")
+  include('router.php');
+  include ("header.php");
 ?>
 
     <!-- CONTACTS-1
