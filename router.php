@@ -1,29 +1,19 @@
 <?php
 
-$requestUri = $_SERVER["REQUEST_URI"];
-header("Location: https://digitalnidom2.up.railway.app/pocetna.php");
+$requestUri = $_SERVER['REQUEST_URI'];
 
-// Check if the file exists
-/* if (file_exists($requestUri)) {
-    include($requestUri);
-} else {
-    // If the file doesn"t exist, return a 404 response
-    http_response_code(404);
-    include("pocetna.php");
-} */
+// Remove query string from the request URI
+$requestUri = explode('?', $requestUri, 2)[0];
 
+// Remove trailing slashes
+$requestUri = rtrim($requestUri, '/');
 
-/* // Remove query string from the request URI
-$requestUri = explode("?", $requestUri, 2)[0];
+// Remove .php extension if present
+if (substr($requestUri, -4) === '.php') {
+    $requestUri = substr($requestUri, 0, -4);
+}
 
-// Remove leading slash and the prefix
-//$requestUri = preg_replace("~^/Digitalni-dom/~", "", $requestUri);
-
-// If the request is for the root directory, load the default index.php
-if ($requestUri == "") {
-    $requestUri = "pocetna.php";
-} else {
-    // Replace slashes with underscores and append .php extension
-    $requestUri = str_replace("/", "_", $requestUri) . ".php";
-} */
+// Redirect to the clean URL
+header("Location: https://digitalnidom2.up.railway.app$requestUri");
+exit();
 ?>

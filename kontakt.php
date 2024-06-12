@@ -1,5 +1,5 @@
 <?php
-  include("router.php");
+  include_once('router.php');
   include ("header.php");
 ?>
 
