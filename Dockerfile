@@ -1,8 +1,5 @@
-# Use the official PHP-FPM image for PHP 8
+# Use an official PHP-FPM image for PHP 8
 FROM php:8.0-fpm as php-fpm
-
-# Copy the PHP application files to the PHP container
-COPY . /var/www/html
 
 # Use an official Nginx image
 FROM nginx:latest
