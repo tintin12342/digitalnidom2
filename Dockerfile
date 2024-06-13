@@ -1,8 +1,20 @@
-# Use the official PHP-FPM image for PHP 8
-FROM php:8.0-fpm
+# Use the official PHP image as a base
+FROM php:7.4-apache
 
-# Set the working directory in the container
-WORKDIR /var/www/html
+# Enable Apache mod_rewrite
+RUN a2enmod rewrite
 
-# Copy the current directory contents into the container at /var/www/html
-COPY . /var/www/html
+# Copy application files to the Apache directory
+COPY . /var/www/html/
+
+# Set the working directory
+WORKDIR /var/www/html/
+
+# Set permissions for the Apache user
+RUN chown -R www-data:www-data /var/www/html/
+
+# Expose port 80
+EXPOSE 80
+
+# Start Apache in the foreground
+CMD ["apache2-foreground"]
