@@ -1,36 +1,17 @@
-# Use an official PHP runtime as a parent image
-FROM php:7.4-fpm
+# Use an official Nginx runtime as the base image
+FROM nginx:latest
 
-# Set the working directory in the container
-WORKDIR /var/www/html
+# Remove the default Nginx configuration file
+RUN rm /etc/nginx/conf.d/default.conf
 
-# Copy composer.lock and composer.json
-COPY composer.lock composer.json /var/www/html/
+# Copy your Nginx configuration file
+COPY nginx.conf /etc/nginx/conf.d/
 
-# Install dependencies
-RUN apt-get update && apt-get install -y \
-    nginx \
-    git \
-    && docker-php-ext-install mysqli pdo pdo_mysql \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+# Copy your PHP files to the appropriate directory
+COPY . /usr/share/nginx/html
 
-# Install Composer
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
-
-# Copy the application code into the container
-COPY . /var/www/html/
-
-# Install application dependencies
-RUN composer install
-
-# Make sure files/folders needed by the app are writable
-RUN chown -R www-data:www-data /var/www/html/storage
-
-# Copy nginx configuration file
-COPY nginx.conf /etc/nginx/sites-available/default
-
-# Expose port 80
+# Expose port 80 to allow incoming connections
 EXPOSE 80
 
-# Start nginx and PHP-FPM server
-CMD service nginx start && php-fpm
+# Command to start Nginx when the container starts
+CMD ["nginx", "-g", "daemon off;"]
