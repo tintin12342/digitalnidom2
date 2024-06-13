@@ -1,8 +1,19 @@
 # Use the official PHP image as a base
 FROM php:8.0-fpm
 
+
 # Install Nginx
-RUN apt-get update && apt-get install -y nginx
+RUN apt-get update \
+    && apt-get install -y \
+        nginx \
+        php8.0-fpm \
+        php8.0-mysql \
+        php8.0-gd \
+        php8.0-xml \
+        # Add more extensions as needed
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*
+
 
 # Copy application files to the Nginx directory
 COPY . /app
