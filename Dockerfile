@@ -1,11 +1,11 @@
-# Use the official PHP image as a base
-FROM php:7.4-apache
+# Use the official PHP image as a base, specifying PHP 8.0
+FROM php:8.0-apache
 
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
 # Set the ServerName directive globally to suppress the warning
-RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+RUN echo "ServerName digitalnidom2.up.railway.app" >> /etc/apache2/apache2.conf
 
 # Copy application files to the Apache directory
 COPY . /var/www/html/
