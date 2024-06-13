@@ -4,6 +4,9 @@ FROM php:7.4-apache
 # Enable Apache mod_rewrite
 RUN a2enmod rewrite
 
+# Set the ServerName directive globally to suppress the warning
+RUN echo "ServerName localhost" >> /etc/apache2/apache2.conf
+
 # Copy application files to the Apache directory
 COPY . /var/www/html/
 
