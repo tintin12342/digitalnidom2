@@ -1,14 +1,25 @@
 # Use an official Nginx runtime as a parent image
 FROM nginx:latest
 
-# Set the working directory inside the container
-WORKDIR /etc/nginx
+# Set the working directory in the container
+WORKDIR /var/www/html
 
-# Copy nginx.conf from the current directory to /etc/nginx/nginx.conf in the container
+# Copy your custom nginx.conf to the container
 COPY nginx.conf nginx.conf
 
-# Expose port 80 to the Docker network
-EXPOSE 80
+# Install PHP and PHP-FPM
+RUN apt-get update && \
+    apt-get install -y php-fpm php-mysql
 
-# Start Nginx when the container launches
-CMD ["nginx", "-g", "daemon off;"]
+# Copy your PHP-FPM configuration
+COPY php-fpm.conf /etc/php/7.x/fpm/php-fpm.conf
+
+# Create necessary directories for Nginx
+RUN mkdir -p /var/log/nginx && \
+    mkdir -p /var/cache/nginx
+
+# Copy your website files to the container
+COPY . /var/www/html
+
+# Start PHP-FPM and Nginx
+CMD service php7.x-fpm start && nginx -g 'daemon off;'
